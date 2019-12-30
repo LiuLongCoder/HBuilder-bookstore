@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/tab/BookStore",
+    "pages/tab/index",
+    "pages/BookDetail",
+    "pages/lanchpage",
+    "pages/SubjectBooks",
+    "pages/SearchPage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "书城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tab/BookStore",
+        "text": "4D书城"
+      },
+      {
+        "pagePath": "pages/tab/index",
+        "text": "书城test"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "BookStore",
+  "compilerVersion": "2.3.7",
+  "usingComponents": {}
+}

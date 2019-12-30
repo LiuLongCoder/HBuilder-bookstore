@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/tab/bookstore",
+    "pages/tab/index",
+    "pages/bookdetail",
+    "pages/lanchpage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "书城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tab/bookstore",
+        "text": "4D书城"
+      },
+      {
+        "pagePath": "pages/tab/index",
+        "text": "书城test"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

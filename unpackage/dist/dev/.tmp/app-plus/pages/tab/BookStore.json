@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "课外",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "搜索",
+        "fontSize": "28upx",
+        "float": "right"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

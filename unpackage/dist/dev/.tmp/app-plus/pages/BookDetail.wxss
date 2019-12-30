@@ -1,0 +1,273 @@
+
+text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+	position: relative;
+}
+.bgImage {
+	position: absolute;
+	top: 0rpx;
+	left: 0rpx;
+	width: 750rpx;
+	height: 1334rpx;
+	-webkit-filter: blur(275rpx);
+	        filter: blur(275rpx);
+}
+.inline {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.bookInfoView {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 400rpx;
+}
+.bookImageContainer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	top: 40rpx;
+	width: 100%;
+	height: 330rpx;
+	border-radius: 10rpx;
+	padding: 5rpx;
+	background-color: #fff;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.bookImage {
+	width: 240rpx;
+	height: 320rpx;
+	border-radius: 10rpx;
+}
+.vipTag {
+	margin-top: 20rpx;
+	padding: 5rpx 20rpx 5rpx 20rpx;
+	color: #fff;
+	background-color: #ffd855;
+	border-radius: 10rpx;
+}
+.bookNameText {
+	font-size: 36rpx;
+	color: #333;
+	margin-top: 30rpx;
+	lines: 1;
+}
+.simpleInfoView {
+	/* justify-content: center; */
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.oneInfoView {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	max-width: 210rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.VLine {
+	background-color: #E0E0E0;
+	width: 1rpx;
+	/*height: 200upx;*/
+}
+.HLine {
+	margin-top: 30rpx;
+	margin-bottom: 20rpx;
+	background-color: #E0E0E0;
+	height: 1rpx;
+}
+.oneInfoText {
+	lines: 1;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	font-size: 28rpx;
+	color: #666666;
+}
+.oneInfoTitle {
+	margin-top: 10rpx;
+	lines: 1;
+	-o-text-overflow: clip;
+	   text-overflow: clip;
+	font-size: 24rpx;
+	color: #999999;
+}
+.bookDescLabelShowSome {
+	lines: 2;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.bookDescText {
+	font-size: 30rpx;
+	color: #666;
+	margin-top: 50rpx;
+}
+.supportTypeView {
+	margin-top: 10rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.supportTypeTitle {
+	color: #666;
+	font-size: 24rpx;
+}
+.supportTypeText {
+	padding: 6rpx 20rpx 6rpx 20rpx;
+	margin-left: 20rpx;
+	background-color: #00B4FF;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+	color: #fff;
+}
+.bookTagsScroller {
+	width: 670rpx;
+	height: 70rpx;
+	white-space: nowrap;
+}
+.bookTagText {
+	padding: 16rpx 30rpx 16rpx 30rpx;
+	border-color: #00B4FF;
+	border-width: 1rpx;
+	border-radius: 8rpx;
+	margin-right: 20rpx;
+	font-size: 24rpx;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	color: #00B4FF;
+	border: 1rpx solid #00B4FF
+}
+
+/* 所属专区 */
+.zoneListContainer {}
+.zoneTitleText {
+	font-size: 34rpx;
+	color: #333333;
+}
+.zoneCell {
+	margin-top: 30rpx;
+}
+.zoneNameText {
+	font-size: 28rpx;
+	color: #999999;
+}
+.zoneImage {
+	margin-top: 10rpx;
+	width: 670rpx;
+	height: 250rpx;
+	border-radius: 10rpx;
+}
+
+/* 相关推荐 */
+.recommendBookContainer {
+	/*margin-top: 40upx;*/
+}
+.recommendBookTitleText {
+	font-size: 34rpx;
+	color: #333333;
+}
+.recommendBookScroller {
+	margin-top: 30rpx;
+	width: 100%;
+	height: 320rpx;
+	white-space: nowrap;
+}
+.bookItemView {
+	display: inline-block;
+	width: 190rpx;
+	height: 360rpx;
+	margin-right: 50rpx;
+}
+.bookItemImage {
+	width: 190rpx;
+	height: 250rpx;
+	border-radius: 8rpx;
+}
+.bookItemNameText {
+	margin-top: 6rpx;
+	font-size: 24rpx;
+	width: 190rpx;
+	color: #666;
+	lines: 2;
+	overflow: hidden;
+}
+.downBtn {
+	margin-top: 20rpx;
+	width: 600rpx;
+	border-radius: 8rpx;
+}
+

@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "搜索",
+  "titleNView": {
+    "searchInput": {
+      "placeholder": "请输入搜索的书",
+      "borderRadius": "8upx",
+      "autoFocus": false,
+      "disabled": false,
+      "align": "center"
+    }
+  },
+  "usingComponents": {}
+}
